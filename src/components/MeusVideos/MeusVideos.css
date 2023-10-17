@@ -1,0 +1,18 @@
+.videos h1{
+  color: #C3375C;
+  text-align: center;
+  font-family:'Genty Demo', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 24px;
+}
+
+.videos-area{
+  max-width: 1024px;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

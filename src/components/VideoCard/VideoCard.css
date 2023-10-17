@@ -1,0 +1,30 @@
+.video-card{
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.video-titulo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.video-thumb img{
+  width: 410px;
+}
+
+.video-titulo img{
+  width: 35px;
+  height: 35px;
+}
+
+.video-titulo p{
+  color: #2C2C2C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 12px;
+}

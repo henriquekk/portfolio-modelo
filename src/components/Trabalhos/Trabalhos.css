@@ -1,0 +1,26 @@
+.meus-trabalhos{
+
+}
+
+.trabalhos-area{
+
+}
+
+.trabalhos-area h1{
+  color: #C3375C;
+  text-align: center;
+  font-family: 'Genty Demo', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 32px 0 0;
+}
+
+.cards-area{
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+

@@ -1,0 +1,12 @@
+.footer-area{
+  max-width: 1024px;
+  margin: auto;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-area img{
+  width: 110px;
+}

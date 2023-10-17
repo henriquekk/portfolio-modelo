@@ -1,0 +1,79 @@
+.form-area{
+  background-color: white;
+}
+
+.form-area h1{
+  color: #C3375C;
+  text-align: center;
+  font-family: 'Genty Demo', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 24px;
+  margin: 0;
+}
+
+.form-area h2{
+  color: #141414;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.form{
+  padding: 24px 0;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.input{
+  border-radius: 10px;
+  background: #FAE3EB;
+  border: none;
+  width: 373px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+label{
+  color: #C3375C;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+textarea:focus, input:focus, select:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+.textarea{
+  border-radius: 10px;
+  background: #FAE3EB;
+  border: none;
+  width: 373px;
+  height: 189px;
+  padding: 10px;
+  margin: 12px 0;
+}
+
+.form-button{
+  border-radius: 50px;
+  background: #C3375C;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.form-button:hover{
+  scale: 1.03;
+}
