@@ -30,7 +30,8 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 390px;
+  width: 55%;
+  justify-content: center;
 }
 
 .minhas-habilidades li{
@@ -49,7 +50,7 @@
 }
 
 .minhas-habilidades img{
-  height: 370px;
+  height: 300px;
 }
 
 

@@ -32,15 +32,16 @@
   border-radius: 10px;
   background: #FAE3EB;
   border: none;
-  width: 373px;
+  width: 293px;
   padding: 12px;
-  margin: 12px 0;
+  margin: 12px;
 }
 
 label{
   color: #C3375C;
   font-size: 16px;
   font-weight: 400;
+  margin: 0   12px;
 }
 
 textarea:focus, input:focus, select:focus{
@@ -53,10 +54,10 @@ textarea:focus, input:focus, select:focus{
   border-radius: 10px;
   background: #FAE3EB;
   border: none;
-  width: 373px;
+  width: 293px;
   height: 189px;
-  padding: 10px;
-  margin: 12px 0;
+  padding: 12px;
+  margin: 12px;
 }
 
 .form-button{
@@ -72,6 +73,7 @@ textarea:focus, input:focus, select:focus{
   border: none;
   cursor: pointer;
   transition: all 0.3s;
+  margin: 12px;
 }
 
 .form-button:hover{

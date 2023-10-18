@@ -5,7 +5,7 @@ import iconCanal from '../../assets/images/iconcanal.png'
 
 export default function VideoCard() {
   return (
-    <section className='video-card-area'>
+
       <div className='video-card'>
         <div className='video-thumb'>
           <img src={thumbVideo} alt="" />
@@ -15,6 +15,6 @@ export default function VideoCard() {
           <p>VLOG: UM DIA NO SHOPPING COM SOFIA</p>
         </div>
       </div>
-    </section>
+
   )
 }
