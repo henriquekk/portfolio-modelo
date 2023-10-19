@@ -212,3 +212,15 @@
   }
 
 }
+
+@media screen and (max-width: 680px){
+
+  .medidas-texto{
+    width: 90%;
+  }
+
+  .sobre-right{
+    width: 90%;
+  }
+
+}

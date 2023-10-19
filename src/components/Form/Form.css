@@ -41,7 +41,7 @@ label{
   color: #C3375C;
   font-size: 16px;
   font-weight: 400;
-  margin: 0   12px;
+  margin: 0 12px;
 }
 
 textarea:focus, input:focus, select:focus{
@@ -78,4 +78,21 @@ textarea:focus, input:focus, select:focus{
 
 .form-button:hover{
   scale: 1.03;
+}
+
+@media screen and (max-width: 350px){
+
+  label {
+    margin: 0 24px;
+  }
+
+  .input, .textarea{
+    width: 247px;
+    margin: 12px 24px;
+  }
+
+  .form-button{
+    margin: 12px 24px;
+  }
+
 }

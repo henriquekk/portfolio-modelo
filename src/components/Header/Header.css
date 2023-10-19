@@ -43,3 +43,13 @@ header{
   width: 107px;
   height: 73px;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.navbar-mobile{
+  display: none;
+}

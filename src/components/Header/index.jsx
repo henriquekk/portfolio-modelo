@@ -1,11 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Header.css';
 import headerLogo from '../../assets/images/headerlogo.png'
 import { Link } from 'react-scroll';
 
 export default function Header() {
+
+  useEffect(() => {
+    // Get the offset position of the navbar
+    const header = document.getElementById('myHeader');
+    const sticky = header.offsetTop;
+
+    // When the component mounts, set up the event listener
+    window.addEventListener('scroll', () => handleScroll(sticky));
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', () => handleScroll(sticky));
+    };
+  }, []);
+
+  function handleScroll(sticky) {
+    const header = document.getElementById('myHeader');
+
+    if (window.scrollY > sticky) {
+      header.classList.add('sticky');
+    } else {
+      header.classList.remove('sticky');
+    }
+  }
+
   return (
-    <header>
+    <header id='myHeader'>
       <section className="header-content">
         <nav className='navbar'>
           <ul className='navbar-list'> 
