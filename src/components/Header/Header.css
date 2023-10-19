@@ -8,6 +8,7 @@ header{
   max-width: 1024px;
   height: 80px;
   margin: auto;
+
 }
 
 .navbar-list{
@@ -28,8 +29,13 @@ header{
   cursor: pointer;
 }
 
+.navbar-list img{
+  cursor: pointer;
+}
+
 .navbar-list li:hover{
   color: #9e2546;
+  font-weight: bold;
 }
 
 

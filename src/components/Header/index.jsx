@@ -15,9 +15,9 @@ export default function Header() {
             <li>
               <Link to='meus-trabalhos' spy={true} smooth={true} offset={-300} duration={500}>Meus trabalhos</Link>
             </li>
-            <li>
-              <Link to='hero-content' spy={true} smooth={true} offset={-300} duration={500}><img src={headerLogo} alt="" /></Link>
-            </li>
+
+            <Link to='hero-content' spy={true} smooth={true} offset={-300} duration={500}><img src={headerLogo} alt="" /></Link>
+
             <li>
               <Link to='minhas-habilidades' spy={true} smooth={true} offset={-300} duration={500}>Minhas habilidades</Link>
             </li>
