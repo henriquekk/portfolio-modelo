@@ -45,11 +45,15 @@ header{
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
 }
 
-.navbar-mobile{
-  display: none;
+@media screen and (max-width: 780px){
+  
+  .navbar-list li{
+    display: none;
+  }
+
 }

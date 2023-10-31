@@ -6,19 +6,16 @@ import { Link } from 'react-scroll';
 export default function Header() {
 
   useEffect(() => {
-    // Get the offset position of the navbar
     const header = document.getElementById('myHeader');
     const sticky = header.offsetTop;
 
-    // When the component mounts, set up the event listener
     window.addEventListener('scroll', () => handleScroll(sticky));
 
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener('scroll', () => handleScroll(sticky));
     };
   }, []);
-
+    
   function handleScroll(sticky) {
     const header = document.getElementById('myHeader');
 
