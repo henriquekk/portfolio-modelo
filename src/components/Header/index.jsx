@@ -47,6 +47,7 @@ export default function Header() {
               <Link to='form' spy={true} smooth={true} offset={-300} duration={500}>Contato</Link>
             </li>
           </ul>
+          <div></div>
         </nav>
       </section>
     </header>
